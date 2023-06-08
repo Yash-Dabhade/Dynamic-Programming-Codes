@@ -5,9 +5,6 @@ using namespace std;
 typedef long long int ll;
 
 //dp with memoization
-#include<bits/stdc++.h>
-using namespace std;
-typedef long long int ll;
 
 int func(int ind, vector<int> heights, vector<int> &dp) {
 	if (ind == 0) return 0;
