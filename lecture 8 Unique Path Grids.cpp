@@ -31,7 +31,7 @@ int main() {
 
 int countWaysUtil(int m, int n, vector<vector<int>> &dp) {
 	for (int i = 0; i < m; i++) {
-		for (int j = 0; j < m; j++) {
+		for (int j = 0; j < n; j++) {
 			if (i == 0 and j == 0) {
 				dp[i][j] == 1;
 				continue;
